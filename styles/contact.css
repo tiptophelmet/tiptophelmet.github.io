@@ -518,3 +518,9 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .mailto-link {
+        font-size: var(--font-size-s);
+    }
+}
