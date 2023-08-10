@@ -1,0 +1,520 @@
+/* screen - contact */
+
+.container .avataaars-1-aPt7hv {
+    background-color: transparent;
+    height: 95.45454406738281px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: relative;
+    width: 90px;
+    border-radius: 999px;
+}
+
+.container .top-bar-DhmS6L {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--gray-nurse);
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    mix-blend-mode: normal;
+    padding: 20px 24px;
+    position: relative;
+    width: 100%;
+}
+
+.container .serhiis-portfolio-rkc9L3 {
+    background-color: transparent;
+    color: var(--tuatara);
+    font-family: var(--font-family-ubuntu_mono);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .navigation-rkc9L3 {
+    align-items: flex-start;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 36px;
+    position: relative;
+}
+
+.container .container-tPgOul {
+    background-color: transparent;
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .container-tPgOul {
+    background-color: transparent;
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .current-page-tPgOul {
+    align-items: center;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+}
+
+.container .ellipse-2-qUJofx {
+    background-color: var(--black);
+    border-radius: 4px;
+    height: 8px;
+    width: 8px;
+}
+
+.container .contact-me-qUJofx {
+    color: var(--black);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .row-DhmS6L {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 97px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.container .contact-me-tpvGRg {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 44px;
+    width: 100%;
+}
+
+.container .title-I2v8ah {
+    align-self: stretch;
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+}
+
+.container .contact-info {
+    align-items: center;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    row-gap: 32px;
+    position: relative;
+    flex-flow: row wrap;
+}
+
+.container .reach-me-at-BdzwzA {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .social-BdzwzA {
+    background-color: transparent;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.container .or-say-hello-at-serh-BdzwzA {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .span1-g3LubT {
+    color: var(--black);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container .span2-g3LubT {
+    color: var(--black);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.container .profile-card-I2v8ah {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    width: 100%;
+}
+
+.container .profile-xx1Pfx {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.container .info-4uGJzj {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+
+.container .serhii-ponomarenko-VZ424Z {
+    background-color: transparent;
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .skills-VZ424Z {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 8px 8px;
+    position: relative;
+    width: 100%;
+}
+
+.container .frame-1-cSeA8n {
+    align-items: center;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+}
+
+.container .vector-NyHFAw {
+    background-color: transparent;
+    height: 18.68035888671875px;
+    mix-blend-mode: normal;
+    position: relative;
+    width: 50px;
+}
+
+.container .golang-engineer-NyHFAw {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .brainstorming-generating-ideas-Jby82a {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .fostering-team-harmony-UvnjnY {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .pursuing-definitive-clear-planning-rDrqxB {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .design-enthusiast-xqi9hw {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .front-end-enthusiast-zFshmF {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .rust-enthusiast-39Rw6v {
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.container .message-xx1Pfx {
+    align-items: center;
+    align-self: stretch;
+    background-color: #fcfcfc;
+    border: 1px solid;
+    border-color: var(--gray-nurse);
+    border-radius: 0px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    mix-blend-mode: normal;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.container .i-am-here-to-conside-51KFgx {
+    background-color: transparent;
+    color: var(--tuatara);
+    flex: 1;
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+}
+
+.container .see-container-I2v8ah {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+}
+
+.container .take-a-peek-at-my-recent-initiatives-XSaxCH {
+    background-color: transparent;
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    width: fit-content;
+}
+
+.container .get-a-clear-insight-XSaxCH {
+    background-color: transparent;
+    color: var(--tuatara);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .actions-I2v8ah {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.container .see-recent-projects-sv2Ljk {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    width: fit-content;
+}
+
+.container .contact-me {
+    background-color: transparent;
+    position: relative;
+}
+
+.container .divider {
+    align-self: stretch;
+    background-color: var(--gray-nurse);
+    height: 1px;
+    mix-blend-mode: normal;
+    position: relative;
+    width: 100%;
+}
+
+.container .ellipse-2 {
+    mix-blend-mode: normal;
+    position: relative;
+}
+
+.container .ellipse-3 {
+    background-color: var(--pink-swan);
+    border-radius: 2px;
+    height: 4px;
+    mix-blend-mode: normal;
+    position: relative;
+    width: 4px;
+}
+
+.container .skill {
+    align-items: center;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+}
+
+@media screen and (max-width: 576px) {
+    .container .skill {
+        width: 100%;
+    }
+}

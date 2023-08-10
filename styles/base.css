@@ -1,0 +1,466 @@
+.full-width-a {
+    width: 100%;
+}
+
+.full-height-a {
+    height: 100%;
+}
+
+.container-center-vertical {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    pointer-events: none;
+}
+
+.container-center-vertical>* {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.container-center-horizontal>* {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+
+.auto-animated div {
+    --z-index: -1;
+    opacity: 0;
+    position: absolute;
+}
+
+.auto-animated input {
+    --z-index: -1;
+    opacity: 0;
+    position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+    opacity: 1;
+}
+
+.overlay-base {
+    display: none;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.overlay-base.animate-appear {
+    align-items: center;
+    animation: reveal 0.3s ease-in-out 1 normal forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+    animation: reveal 0.3s ease-in-out 1 reverse forwards;
+    display: block;
+    opacity: 1;
+    pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+    pointer-events: none;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate-nodelay {
+    animation-delay: 0s;
+}
+
+.align-self-flex-start {
+    align-self: flex-start;
+}
+
+.align-self-flex-end {
+    align-self: flex-end;
+}
+
+.align-self-flex-center {
+    align-self: flex-center;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.valign-text-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+    pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    --gray-nurse: #e8e8e8;
+    --pink-swan: #b8b8b8;
+    --tuatara: #343434;
+    --white: #ffffff;
+    --text: #667085;
+
+    --font-size-l: 20px;
+    --font-size-m: 16px;
+    --font-size-s: 14px;
+    --font-size-xs: 12px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 48px;
+
+    --font-family-geologica: "Geologica", Helvetica;
+    --font-family-nunito_sans: "Nunito Sans", Helvetica;
+    --font-family-ubuntu_mono: "Ubuntu Mono", Helvetica;
+}
+
+.ubuntumono-normal-tuatara-16px {
+    color: var(--tuatara);
+    font-family: var(--font-family-ubuntu_mono);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: initial;
+}
+
+.ubuntumono-medium-tuatara-12px {
+    color: var(--tuatara);
+    font-family: var(--font-family-ubuntu_mono);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: initial;
+}
+
+.geologica-medium-tuatara-12px {
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: initial;
+}
+
+.geologica-semibold-tuatara-16px {
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: initial;
+}
+
+.geologica-medium-tuatara-20px {
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: initial;
+}
+
+.geologica-semibold-tuatara-20px {
+    color: var(--tuatara);
+    font-family: var(--font-family-geologica);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: initial;
+}
+
+.nunitosans-normal-tuatara-16px {
+    color: var(--tuatara);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: initial;
+}
+
+.nunitosans-normal-text-16px {
+    color: var(--text);
+    font-family: var(--font-family-nunito_sans);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: initial;
+}
+
+body {
+    background: rgb(222, 255, 243);
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 32px 56px;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 16px;
+    }
+}
+
+.container .top-bar {
+    align-items: center;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    mix-blend-mode: normal;
+    padding: 16px 20px;
+    position: relative;
+    width: 100%;
+
+    background: #ffffff;
+    border: 1px solid var(--tuatara);
+
+    flex-flow: row wrap;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+.container .row {
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+
+    flex-flow: row wrap;
+
+    gap: 64px;
+
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid var(--tuatara);
+}
+
+@media screen and (max-width: 576px) {
+    .container .row {
+        padding: 16px;
+    }
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+    row-gap: 8px;
+}
+
+@media screen and (max-width: 576px) {
+    .navigation {
+        width: 100%;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.navigation .link {
+    width: 100%;
+
+    padding: 12px 16px;
+
+    border-radius: 0px;
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: var(--tuatara);
+    font-family: var(--font-family-ubuntu_mono);
+    font-size: var(--font-size-m);
+
+    white-space: nowrap;
+}
+
+.navigation .link:hover:not(.active) {
+    transition: 0.2s all;
+
+    background-color: var(--gray-nurse);
+}
+
+.navigation .link.active {
+    color: #ffffff;
+
+    background: var(--tuatara);
+}
+
+.button {
+    transition: 0.2s all;
+
+    outline: 0;
+
+    cursor: pointer;
+
+    position: relative;
+
+    background: var(--tuatara);
+    align-items: center;
+    border-radius: 0px;
+
+    border: 0;
+    box-shadow: 0px 2px 4px #aeaeae33;
+    display: inline-flex;
+    flex: 0 0 auto;
+
+    justify-content: center;
+
+    gap: 12px;
+    padding: 12px 16px;
+
+    color: var(--white);
+    font-family: var(--font-family-ubuntu_mono);
+    text-transform: uppercase;
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+    .button {
+        width: 100%;
+    }
+}
+
+.button:hover {
+    transition: 0.2s all;
+
+    outline: 1px solid var(--tuatara);
+    outline-offset: 4px;
+}
+
+.button.secondary {
+    color: var(--tuatara);
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--gray-nurse);
+}
+
+.button.secondary:hover {
+    transition: 0.2s all;
+
+    outline: 1px solid var(--gray-nurse);
+    outline-offset: 4px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.social-links .social-link {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0px;
+    text-decoration: none;
+
+    background-color: #343434;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-reverse {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
