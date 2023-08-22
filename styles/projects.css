@@ -553,17 +553,6 @@
     width: fit-content;
 }
 
-.container .golang {
-    background-color: transparent;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    width: fit-content;
-}
-
 .container .project {
     align-items: flex-start;
     align-self: stretch;
