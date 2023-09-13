@@ -51,13 +51,19 @@
                         <div class="project-icon" data-id="7:18">
                             <img src="assets/terminal-icon.svg" alt="Terminal icon">
                         </div>
-                        <h1 class="geologica-semibold-tuatara-20px">MyWireguard CLI App</h1>
+                        <h1 class="geologica-semibold-tuatara-20px">My Wireguard</h1>
                         <p class="nunitosans-normal-text-16px flex-1">
                             Deploy a Wireguard VPN to your cloud provider in minutes and create VPN clients within
                             seconds - 😲
                             right from your console/terminal.<br><br>With this app, you can easily set up a secure VPN
                             connection between your devices and access resources on your cloud network as if you were
-                            physically present there.
+                            physically present there.<br><br>
+                            Compared to existing solutions, it is not just a regular VPN-to-host installer.
+                            My Wireguard uses Terraform to provision a solid network architecture right before installing a VPN.
+                            Minimum required security policies are configured, so that only necessary ports can be utilized by Wireguard VPN.
+                            <br><br>
+                            The result is not just a regular VPN installation, but a secure one.<br>
+                            Give it a shot!
                         </p>
                         <div class="stack" data-id="7:12">
                             <div class="badge" data-id="7:15">
@@ -100,8 +106,10 @@
                             - Client policy parsing<br>
                             - Aerospike client factory<br><br>
                             Also included:<br>
-                            - unit tests<br>
-                            - comments<br>
+                            - unit/integration tests<br>
+                            - Github actions test-runner job<br>
+                            - code coverage tracking via Codecov.io<br>
+                            - documentation<br>
                         </p>
                         <div class="stack">
                             <div class="badge">
@@ -117,6 +125,11 @@
                                 <p class="ubuntumono-medium-tuatara-12px">URL Parsing</p>
                             </div>
                         </div>
+                        <button class="button codecov full-width-a"
+                            onclick="window.open('https://app.codecov.io/gh/tiptophelmet/aerospike-url', '_blank')">
+                            <img src="assets/codecov-logo-white.svg">
+                            Code coverage
+                        </button>
                         <button class="button golang full-width-a"
                             onclick="window.open('https://pkg.go.dev/github.com/tiptophelmet/aerospike-url', '_blank')">
                             <img src="assets/golang-logo-white.svg">
@@ -124,6 +137,52 @@
                         </button>
                         <button class="button full-width-a"
                             onclick="window.open('https://github.com/tiptophelmet/aerospike-url', '_blank')">
+                            <img src="assets/github-logo.svg">
+                            Github repo
+                        </button>
+                    </div>
+                    <div class="project" data-id="11:66">
+                        <div class="project-icon" data-id="11:67">
+                            <img src="assets/shield-icon.svg" alt="Shield icon">
+                        </div>
+                        <h1 class="geologica-semibold-tuatara-20px">Content-Security-Policy API</h1>
+                        <p class="nunitosans-normal-text-16px flex-1">
+                            User-friendly API to build your Content-Security-Policy HTTP header.<br><br>
+
+                            Designed to simplify the process of creating and managing CSP headers in Go applications.<br>
+                            With a structured approach to defining sources and directives, 
+                            this library ensures that you maintain a robust and secure Content-Security-Policy HTTP header 
+                            for your Go applications.<br><br>
+
+                            Also included:<br>
+                            - unit tests<br>
+                            - Github actions test-runner job<br>
+                            - code coverage tracking via Codecov.io<br>
+                            - documentation<br>
+                        </p>
+                        <div class="stack">
+                            <div class="badge">
+                                <p class="ubuntumono-medium-tuatara-12px">Golang</p>
+                            </div>
+                            <div class="badge">
+                                <p class="ubuntumono-medium-tuatara-12px">HTTP Security Headers</p>
+                            </div>
+                            <div class="badge">
+                                <p class="ubuntumono-medium-tuatara-12px">Content Security Policy</p>
+                            </div>
+                        </div>
+                        <button class="button codecov full-width-a"
+                            onclick="window.open('https://app.codecov.io/gh/tiptophelmet/cspolicy', '_blank')">
+                            <img src="assets/codecov-logo-white.svg">
+                            Code coverage
+                        </button>
+                        <button class="button golang full-width-a"
+                            onclick="window.open('https://pkg.go.dev/github.com/tiptophelmet/cspolicy', '_blank')">
+                            <img src="assets/golang-logo-white.svg">
+                            Published package
+                        </button>
+                        <button class="button full-width-a"
+                            onclick="window.open('https://github.com/tiptophelmet/cspolicy', '_blank')">
                             <img src="assets/github-logo.svg">
                             Github repo
                         </button>

@@ -167,6 +167,7 @@ input:focus {
     --text: #667085;
     --body-bg: #defff3;
     --golang: #007d9c;
+    --codecov: #E0225C;
 
     --font-size-l: 20px;
     --font-size-m: 16px;
@@ -445,6 +446,17 @@ body {
     transition: 0.2s all;
 
     outline: 1px solid var(--golang);
+    outline-offset: 4px;
+}
+
+.button.codecov {
+    background: var(--codecov);
+}
+
+.button.codecov:hover {
+    transition: 0.2s all;
+
+    outline: 1px solid var(--codecov);
     outline-offset: 4px;
 }
 
